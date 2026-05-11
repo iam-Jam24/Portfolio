@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamal Raza — Developer • Creator • Designer</title>
+    <meta name="description"
+        content="Premium portfolio of Jamal Raza — Developer, Creator, and Designer crafting digital experiences with precision and style." />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-inner">
+            <div class="loader-name">JR</div>
+            <div class="loader-bar">
+                <div class="loader-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div id="cursor" class="cursor"></div>
+    <div id="cursor-follower" class="cursor-follower"></div>
+
+    <!-- Three.js Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#hero" class="nav-brand magnetic">JR<span>.</span></a>
+        <div class="nav-menu" id="nav-menu">
+            <a href="#about" class="nav-link magnetic">About</a>
+            <a href="#projects" class="nav-link magnetic">Projects</a>
+            <a href="#experience" class="nav-link magnetic">Experience</a>
+            <a href="#gallery" class="nav-link magnetic">Gallery</a>
+            <a href="#contact" class="nav-link magnetic">Contact</a>
+        </div>
+        <button class="nav-hamburger magnetic" id="nav-hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#experience" class="mobile-link">Experience</a>
+        <a href="#gallery" class="mobile-link">Gallery</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <main id="app">
+
+        <!-- ===== HERO ===== -->
+        <section class="hero" id="hero">
+            <div class="hero-layout">
+                <div class="hero-text">
+                    <p class="hero-label reveal-up">Portfolio — 2026</p>
+                    <h1 class="hero-name">
+                        <span class="name-line reveal-up" style="--delay:.1s">Jamal</span>
+                        <span class="name-line reveal-up" style="--delay:.25s">Raza</span>
+                    </h1>
+                    <p class="hero-tagline reveal-up" style="--delay:.4s">Developer &bull; Creator &bull; Designer</p>
+                </div>
+                <div class="hero-portrait reveal-up" style="--delay:.3s">
+                    <div class="portrait-frame">
+                        <img src="/assets/jamal_hero.jpg" alt="Jamal Raza" />
+                    </div>
+                    <div class="portrait-glow"></div>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <div class="scroll-track">
+                    <div class="scroll-thumb"></div>
+                </div>
+                <span>Scroll</span>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT ===== -->
+        <section class="section" id="about">
+            <div class="section-grid about-grid">
+                <div class="about-left">
+                    <p class="section-label reveal-up">01 — About</p>
+                    <h2 class="section-heading reveal-up">Building at the<br>intersection of<br><em>code &amp;
+                            creativity.</em></h2>
+                </div>
+                <div class="about-right">
+                    <p class="about-bio reveal-up">I’m Jamal Raza — a B.Tech CSE (AI-ML) student at Polaris School of
+                        Technology, Bangalore, exploring creativity through content, visuals and designing. What
+                        started with shooting reels and moments with friends slowly grew into a strong passion for
+                        cinematic visuals, scripting, production, branding, and digital experiences.</p>
+                    <p class="about-bio reveal-up">I enjoy experimenting with ideas, learning through the creative
+                        process, and turning simple moments into engaging visual stories. As an aspiring content
+                        producer and creative technologist, I’m interested in blending creativity with technology to
+                        create work that feels both visually impactful and meaningful.</p>
+                    <p class="about-bio reveal-up">From cinematic reels and visual concepts to building digital products
+                        and experiences, I approach every project with the same mindset — make it creative, make it
+                        functional, and make it memorable.</p>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="skills-row reveal-up">
+                <div class="skill-pill magnetic"><span>Content Production</span></div>
+                <div class="skill-pill magnetic"><span>Videography</span></div>
+                <div class="skill-pill magnetic"><span>Cinematic Reels</span></div>
+                <div class="skill-pill magnetic"><span>Script Writing</span></div>
+                <div class="skill-pill magnetic"><span>Branding</span></div>
+                <div class="skill-pill magnetic"><span>Marketing</span></div>
+                <div class="skill-pill magnetic"><span>Creative Direction</span></div>
+                <div class="skill-pill magnetic"><span>Editing</span></div>
+                <div class="skill-pill magnetic"><span>Collaboration</span></div>
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS ===== -->
+        <section class="section" id="projects">
+            <p class="section-label reveal-up">02 — Work</p>
+            <h2 class="section-heading reveal-up">Domains I Want to Work In</h2>
+
+            <div class="projects-list">
+                <article class="project-card reveal-up">
+                    <div class="project-image">
+                        <img src="/assets/project_reel.png" alt="Cinematic Reel Shoot" loading="lazy" />
+                    </div>
+                    <div class="project-meta">
+                        <div class="project-tags">
+                            <span class="badge">Production</span>
+                            <span class="badge">Direction</span>
+                        </div>
+                        <h3 class="project-title">Cinematic Shoots</h3>
+                        <div class="project-desc">
+                            <p style="margin-bottom: 1rem;">Creating visually engaging cinematic reels that blend
+                                storytelling, aesthetics, and emotion through creative camera movements, editing, and
+                                real-life moments. From college life captures to fashion-inspired shoots and creator
+                                lifestyle content, I enjoy turning simple ideas into premium visual experiences.</p>
+                            <p style="margin-bottom: 0.5rem;">I love experimenting with:</p>
+                            <ul style="list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1rem;">
+                                <li>College life cinematics</li>
+                                <li>Fashion &amp; model-style shoots</li>
+                                <li>Aesthetic edits</li>
+                                <li>Behind-the-scenes (BTS) content</li>
+                                <li>Creator lifestyle storytelling</li>
+                            </ul>
+                            <p style="margin-bottom: 0.5rem;">Projects and concepts I enjoy creating include:</p>
+                            <ul style="list-style-type: disc; padding-left: 1.5rem;">
+                                <li>A Day at College</li>
+                                <li>Late Night Coding</li>
+                                <li>Student Life Cinematic</li>
+                                <li>Creator Lifestyle</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reverse reveal-up">
+                    <div class="project-image"
+                        style="background: transparent; aspect-ratio: auto; max-width: 400px; margin-left: auto;">
+                        <img src="/assets/project_promotion.jpg" alt="Polaris Promotion Graphic" loading="lazy"
+                            style="height: auto; width: 100%; object-fit: contain; border-radius: 24px;" />
+                    </div>
+                    <div class="project-meta">
+                        <div class="project-tags">
+                            <span class="badge">Promotion</span>
+                            <span class="badge">Design</span>
+                        </div>
+                        <h3 class="project-title">Promotional Campaign</h3>
+                        <p class="project-desc">Passionate about creating modern promotional campaigns, cinematic
+                            visuals, and high-impact digital branding content. I enjoy designing bold posters, social
+                            media creatives, and visually engaging campaigns that combine storytelling, aesthetics, and
+                            strategic communication to build strong brand presence and audience engagement.</p>
+                    </div>
+                </article>
+
+                <article class="project-card reverse reveal-up">
+                    <div class="project-image"
+                        style="background: transparent; aspect-ratio: auto; max-width: 400px; margin-left: auto;">
+                        <img src="/assets/project_brand.jpg" alt="Brand Advertisement" loading="lazy"
+                            style="height: auto; width: 100%; object-fit: contain; border-radius: 24px;" />
+                    </div>
+                    <div class="project-meta">
+                        <div class="project-tags">
+                            <span class="badge">Branding</span>
+                            <span class="badge">Concept</span>
+                        </div>
+                        <h3 class="project-title">Brand Ad Concept</h3>
+                        <p class="project-desc">Building creative concepts around branding, collaborations, and
+                            advertisements with a strong focus on visual storytelling, production, and premium
+                            aesthetics. Passionate about turning ideas into impactful digital campaigns and engaging
+                            visual experiences.</p>
+                    </div>
+                </article>
+
+                <article class="project-card reveal-up">
+                    <div class="project-image">
+                        <img src="/assets/project_event.png" alt="Event Coverage" loading="lazy" />
+                    </div>
+                    <div class="project-meta">
+                        <div class="project-tags">
+                            <span class="badge">Live</span>
+                            <span class="badge">Production</span>
+                        </div>
+                        <h3 class="project-title">College Event Coverage</h3>
+                        <div class="project-desc">
+                            <p style="margin-bottom: 1rem;">Passionate about live event production and visual
+                                storytelling, especially in high-energy college environments. I enjoy documenting real
+                                moments, crowd energy, performances, and behind-the-scenes experiences while
+                                experimenting with cinematic camera work and creative edits.</p>
+                            <p>My approach combines storytelling, production planning, and dynamic visuals to create
+                                event content that feels authentic, engaging, and impactful.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reverse reveal-up">
+                    <div class="project-image"
+                        style="background: transparent; aspect-ratio: auto; max-width: 400px; margin-left: auto;">
+                        <img src="/assets/project_story.jpg" alt="Storytelling Reel" loading="lazy"
+                            style="height: auto; width: 100%; object-fit: contain; border-radius: 24px;" />
+                    </div>
+                    <div class="project-meta">
+                        <div class="project-tags">
+                            <span class="badge">Narrative</span>
+                            <span class="badge">Edit</span>
+                        </div>
+                        <h3 class="project-title">Creative Storytelling Reel</h3>
+                        <p class="project-desc">Exploring storytelling through cinematic visuals, emotional pacing, and
+                            creative editing. Focused on turning simple moments into engaging short-form narratives
+                            using visual composition, color grading, sound design, and expressive transitions.</p>
+                    </div>
+                </article>
+
+                <article class="project-card reveal-up">
+                    <div class="project-image" style="background: transparent; aspect-ratio: auto; max-width: 400px;">
+                        <img src="/assets/project_fashion.png" alt="Fashion Shoot" loading="lazy"
+                            style="height: auto; width: 100%; object-fit: contain; border-radius: 24px;" />
+                    </div>
+                    <div class="project-meta">
+                        <div class="project-tags">
+                            <span class="badge">Fashion</span>
+                            <span class="badge">Direction</span>
+                        </div>
+                        <h3 class="project-title">Fashion / Model Shoot</h3>
+                        <p class="project-desc">Interested in fashion and portrait shoots that combine visual
+                            storytelling, creative direction, and premium aesthetics. I enjoy experimenting with poses,
+                            lighting, styling, and cinematic editing to create bold and visually engaging content.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== EXPERIENCE ===== -->
+        <section class="section" id="experience">
+            <p class="section-label reveal-up">03 — Journey</p>
+            <style>
+                @keyframes float-gentle {
+                    0%, 100% { transform: translateY(0); }
+                    50% { transform: translateY(-15px); }
+                }
+                .sticky-portrait-wrapper {
+                    position: sticky;
+                    top: 140px;
+                    animation: float-gentle 6s ease-in-out infinite;
+                }
+                .sticky-portrait-wrapper:hover {
+                    animation-play-state: paused;
+                }
+                .sticky-portrait-wrapper:hover .portrait-frame {
+                    box-shadow: 0 40px 80px rgba(77, 158, 255, 0.2);
+                    border-color: rgba(255, 255, 255, 0.2);
+                }
+            </style>
+            <div class="about-grid" style="margin-top: 4rem; margin-bottom: 0; align-items: start;">
+                <div class="journey-content">
+                    <h2 class="section-heading reveal-up" style="margin-top: 0; font-size: clamp(2rem, 4vw, 3rem);">
+                        Education
+                        &amp; Learning</h2>
+                    <p class="reveal-up" style="color: var(--gray-400); line-height: 1.7; font-size: 1.05rem;">
+                        B.Tech CSE (AI &amp; ML) student and aspiring full-stack developer skilled in React, Node.js,
+                        MongoDB,
+                        Python, and UI/UX design. Built projects including an AI-powered interview preparation platform,
+                        a
+                        project management system, and Python-based CLI tools. Familiar with data structures and
+                        algorithms,
+                        with a focus on building scalable, user-centric applications. Seeking internship opportunities
+                        to apply
+                        and grow technical expertise.</p>
+
+                    <h2 class="section-heading reveal-up" style="margin-top: 4rem; font-size: clamp(2rem, 4vw, 3rem);">Timeline
+                    </h2>
+                    <div class="reveal-up"
+                        style="color: var(--gray-400); line-height: 1.7; font-size: 1.05rem; margin-bottom: 3rem;">
+                        <p style="color: var(--white); font-weight: 600; margin-bottom: 0.5rem;">2026 — Present</p>
+                        <p style="color: var(--white); margin-bottom: 0.25rem;">Polaris School of Technology, Bangalore</p>
+                        <p style="color: var(--accent); margin-bottom: 1.5rem; font-weight: 500;">B.Tech in Computer Science
+                            Engineering (AI &amp; ML)</p>
+                        <p style="margin-bottom: 2rem;">Exploring the intersection of technology, design, content production,
+                            and creative storytelling. Alongside academics, I’ve been building skills in visual direction,
+                            branding concepts, cinematic editing, and digital experiences while experimenting with creative and
+                            technical projects.</p>
+
+                        <div style="margin-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem;">
+                            <p style="color: var(--white); font-weight: 600; margin-bottom: 1rem;">Creative Exploration</p>
+                            <ul
+                                style="list-style-type: disc; padding-left: 1.5rem; margin-bottom: 2rem; color: var(--gray-400);">
+                                <li>Cinematic reels &amp; visual storytelling</li>
+                                <li>Event coverage &amp; live production</li>
+                                <li>Branding and advertisement concepts</li>
+                                <li>Fashion / model shoots</li>
+                                <li>Script writing &amp; creative ideation</li>
+                                <li>Content production and editing</li>
+                            </ul>
+
+                            <p style="color: var(--white); font-weight: 600; margin-bottom: 1rem;">Technical &amp; Creative
+                                Projects</p>
+                            <ul style="list-style-type: disc; padding-left: 1.5rem; color: var(--gray-400);">
+                                <li><strong>Synvex</strong> — AI-powered interview preparation platform</li>
+                                <li>Project management dashboard</li>
+                                <li>UI/UX concepts and visual design</li>
+                                <li>Full-stack web development</li>
+                                <li>Interactive digital experiences</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reveal-up sticky-portrait-wrapper hero-portrait" style="width: 100%; display: flex; justify-content: center; align-items: flex-start;">
+                    <div class="portrait-frame" style="width: 100%; max-width: 480px; box-shadow: 0 30px 60px rgba(0,0,0,0.6); transition: all 0.5s ease; border: 1px solid rgba(255,255,255,0.05); height: auto; aspect-ratio: auto;">
+                        <img src="./public/assets/journey_photo.png" alt="Jamal Raza" style="width: 100%; height: auto; display: block; transition: transform 0.8s ease;">
+                        <div class="portrait-glow"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ===== CONTACT ===== -->
+        <section class="section" id="contact">
+            <div class="contact-layout">
+                <div class="contact-left">
+                    <p class="section-label reveal-up">04 — Contact</p>
+                    <h2 class="section-heading reveal-up">Let's work<br>together<span class="accent">.</span></h2>
+                    <p class="contact-sub reveal-up">Have a project in mind or want to collaborate? I'd love to hear
+                        from you.</p>
+                    <div class="contact-socials reveal-up">
+                        <a href="https://github.com/iam-Jam24" target="_blank" rel="noopener noreferrer"
+                            class="social-icon magnetic" aria-label="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jamalraza24/" target="_blank" rel="noopener noreferrer"
+                            class="social-icon magnetic" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z" />
+                                <rect x="2" y="9" width="4" height="12" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)"
+                            onclick="this.style.width='auto'; this.style.padding='0 18px'; this.innerHTML='<span style=\'font-size: 0.85rem; font-weight: 500; letter-spacing: 0.02em; color: var(--white);\'>asjamalraza@gmail.com</span>'; navigator.clipboard.writeText('asjamalraza@gmail.com');"
+                            class="social-icon magnetic" aria-label="Email" title="Click to copy email">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <rect x="2" y="4" width="20" height="16" rx="2" />
+                                <path d="M22 7l-10 7L2 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form reveal-up" action="https://formsubmit.co/asjamalraza@gmail.com" method="POST">
+                    <!-- Disables the default captcha -->
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <div class="form-field">
+                        <label for="f-name">Name</label>
+                        <input type="text" id="f-name" name="name" placeholder="Your name" autocomplete="name"
+                            required />
+                    </div>
+                    <div class="form-field">
+                        <label for="f-email">Email</label>
+                        <input type="email" id="f-email" name="email" placeholder="you@email.com" autocomplete="email"
+                            required />
+                    </div>
+                    <div class="form-field">
+                        <label for="f-msg">Message</label>
+                        <textarea id="f-msg" name="message" rows="5" placeholder="Tell me about your project…"
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-fill magnetic"><span>Send Message</span></button>
+                </form>
+            </div>
+        </section>
+
+        <!-- ===== FOOTER ===== -->
+        <footer class="footer">
+            <div class="footer-inner">
+                <span class="footer-brand">JR.</span>
+                <span>&copy; 2025 Jamal Raza. All rights reserved.</span>
+                <span class="footer-credit">Designed with precision.</span>
+            </div>
+        </footer>
+
+    </main>
+
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
