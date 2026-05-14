@@ -451,3 +451,4 @@ document.querySelectorAll('a[href^="#"]').forEach((a) => {
 });
 
 console.log('✦ Jamal Raza — Premium Portfolio Loaded');
+ 
